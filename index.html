@@ -10,47 +10,136 @@
 </head>
 <header class="bg-dark">
     <!-- <div class="container"> -->
-        <div class="d-flex flex justify-content-start p-2">
-            <div class="gf-logo img-fluid">
-                <img src="img/img/duck.png" alt="logo" height="50" width="50"> 
-            </div>
-            <div>
-                <nav class="navbar navbar-expand-lg text-white">
-                    <div class="container-fluid">
-                        <a class="navbar-brand text-white" href="#">Catalogo Libri</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active text-white" aria-current="page" href="#">Anagrafica Utenti</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Storico Prestiti</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" href="#">Help</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+    <div class="d-flex flex justify-content-start p-2">
+        <div class="gf-logo img-fluid">
+            <img src="img/img/duck.png" alt="logo" height="50" width="50">
         </div>
+        <div>
+            <nav class="navbar navbar-expand-lg text-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="#">Catalogo Libri</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="#">Anagrafica Utenti</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Storico Prestiti</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Help</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
     </div>
     <!-- <img src="img/img/duck.png" alt=""> -->
 </header>
 <main>
     <div class=" d-flex justify-content-evenly container-fluid p-3">
-        <div> <h3>Catalogo libri</h3></div>
+        <div>
+            <h3>Catalogo libri</h3>
+        </div>
         <button type="button" class="btn btn-primary">Aggiungi Libro</button>
     </div>
+    <div class="container-fluid d-flex justify-content-evenly ">
+    <table class="table caption-top">
+        <thead>
+            <tr>
+                <th scope="col">Titolo</th>
+                <th scope="col">Data prestito</th>
+                <th scope="col">Stato</th>
+                <th scope="col">Azioni</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>I pilastri della terra</td>
+                <td>-</td>
+                <td> <span class="bg-success rounded text-white p-1">Disponibile</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>I promessi sposi</td>
+                <td>-</td>
+                <td> <span class="bg-success rounded text-white p-1">Disponibile</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>Il signore deglie anelli</td>
+                <td>18/10/2023</td>
+                <td> <span class="bg-warning rounded text-white p-1">In prestito</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>Harry Potter e la Pietra filosofale</td>
+                <td>-</td>
+                <td> <span class="bg-success rounded text-white p-1">Disponibile</span></td>
+                <td>tasti</td>
+            </tr>
+
+            <tr>
+                <td>Il codice Da Vinci</td>
+                <td>-</td>
+                <td> <span class="bg-danger rounded text-white p-1">Non Disponibile</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>Shinig</td>
+                <td>-</td>
+                <td> <span class="bg-success rounded text-white p-1">Disponibile</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>Il trono di spade</td>
+                <td>21/09/2023</td>
+                <td> <span class="bg-warning rounded text-white p-1">In prestito</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>La Divina Commedia</td>
+                <td>-</td>
+                <td> <span class="bg-success rounded text-white p-1">Disponibile</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>Il Mondo di Sofia</td>
+                <td>-</td>
+                <td> <span class="bg-danger rounded text-white p-1">Non Disponibile</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>Le Cronache di Narnia:il leone,lastrega e l'armadio.</td>
+                <td>29/11/2023</td>
+                <td> <span class="bg-warning rounded text-white p-1">In prestito</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>Il piccolo principe</td>
+                <td>-</td>
+                <td> <span class="bg-success rounded text-white p-1">Disponibile</span></td>
+                <td>tasti</td>
+            </tr>
+            <tr>
+                <td>La storia infinita</td>
+                <td>-</td>
+                <td> <span class="bg-success rounded text-white p-1">Disponibile</span></td>
+                <td>tasti</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 </main>
+
 <body>
-    
+
 
 </body>
 
